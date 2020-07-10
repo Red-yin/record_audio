@@ -1,7 +1,7 @@
 
 TOOLCHAINDIR= toolchain
-CC = $(TOOLCHAINDIR)/bin/aarch64-linux-gcc -g
-AR = $(TOOLCHAINDIR)/bin/aarch64-linux-ar
+#CC = $(TOOLCHAINDIR)/bin/aarch64-linux-gcc -g
+#AR = $(TOOLCHAINDIR)/bin/aarch64-linux-ar
 OUT = ./out
 
 ifeq (,$(CC))
